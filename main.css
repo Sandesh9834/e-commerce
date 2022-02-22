@@ -2,6 +2,12 @@
       --primary-color: #1264bb;
       --SEARCH-BAR-BG: #f0ecec;
       --bg-color: rgba(128, 128, 128, 0.363);
+      --white-color: white;
+      --black-color: black;
+      --light-blue-color: #3498db;
+      --dark-blue-color: #145a8a;
+      --light-gray-color: lightgray;
+      --gray-color: #efefef;
   }
   
   body{
