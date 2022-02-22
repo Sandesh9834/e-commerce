@@ -1,0 +1,131 @@
+:root{
+      --primary-color: #1264bb;
+      --SEARCH-BAR-BG: #f0ecec;
+  }
+  
+  body{
+      font-weight: 400;
+  }
+  
+  .header{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem;
+      background: var(--primary-color);
+  }
+  
+  .search-bar{
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      gap: 4px;
+      padding-left: 5px;
+      width: 40%;
+      background: var(--SEARCH-BAR-BG);
+  }
+  
+  .search-submit{
+      text-align: center;
+      padding-top: 5px;
+  }
+  
+  .search-submit:hover{
+      cursor: pointer;
+  }
+  
+  .search-input{
+      border: none;
+      background: transparent;
+  }
+  
+  .search-input:focus{
+      outline: none;
+  }
+  
+  .header-actions{
+      display: flex;
+      padding: 0px 5px;
+      gap: 2rem;
+  }
+
+  .nav-item {
+    background-color: var(--primary-color);
+  }
+
+  .flex {
+    display: flex;
+}
+
+.btn {
+  cursor: pointer;
+  padding: 12px;
+  min-width: 100px;
+  border: 0px;
+  margin-right: 1rem;
+}
+
+.btn-badge {
+  position: relative;
+  color: black;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  border-radius: 50%;
+}
+
+.badge-lg {
+  width: 4.5rem;
+  height: 4.5rem;
+}
+
+.round-button {
+  border-radius: 8px;
+}
+
+.center {
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-xl {
+  width: 1.2rem;
+  height: 1.2rem;
+  font-size: 0.8rem;
+}
+
+.icon-button-badge {
+  position: absolute;
+  top: 0.9rem;
+  right: 0.8rem;
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  border: 2px solid white;
+}
+
+.search-bar {
+  padding: 8px 15px;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+
+.nav-heading {
+  font-size: 1.25rem;
+  text-decoration: none;
+  color: white;
+  font-weight: 800;
+  padding-left: 3.75rem;
+}
+
+.right-nav {
+  align-items: center;
+  justify-content: space-around;
+  width: 30%;
+}
+  .left-nav {
+    align-items: center;
+    justify-content: space-between;
+    width: 70%;
+    padding-right: 12em;
+}
