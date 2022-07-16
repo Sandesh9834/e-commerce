@@ -11,8 +11,11 @@
       --gray-color: #efefef;
   }
   
-  body{
-      font-weight: 400;
+  body
+  {
+    font-weight: 400;
+    margin: 0%;
+
   }
   
   .header{

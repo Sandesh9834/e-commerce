@@ -42,16 +42,17 @@
     .body-cart 
     {
       margin-bottom: 3.2rem;
-      margin-top: 42.5rem;
+      /* margin-top: 42.5rem; */
       justify-content: space-around;
     }
 
     .body-cart-container 
     {
       padding: 5px;
-      width: 31.25rem;
+      margin: 2rem 0px;
+      /* width: 31.25rem;
       height: 18.75rem;
-      border: solid black;
+      border: solid black; */
     }
 
     .body-cart-image 
