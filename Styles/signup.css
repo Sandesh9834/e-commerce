@@ -12,21 +12,22 @@
       text-decoration: none;
     }
     
-    .btn
+    .btn1
     {
       background-color: var(--gray-color);
-    text-align: center;
-    text-decoration: none;
+      text-align: center;
+      text-decoration: none;
+      border: none;
     }
 
     .login-container {
       position: absolute;
-      top: 50%;
+      top: 80%;
       left: 50%;
       background-color: var(--white-color);
       transform: translate(-50%, -50%);
       width: 410px;
-      height: 450px;
+      height: max-content;
       padding: 30px;
       border: solid var(--black-color);
       font-weight: 800;
